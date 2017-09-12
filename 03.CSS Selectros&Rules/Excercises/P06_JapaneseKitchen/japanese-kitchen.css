@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+html{
+  font-family:'Lato', sans-serif;
+  font-size: 14px;
+}
+body{
+  background-image: url('images/dark-wood.jpg');
+  text-align: center;
+}
+header{
+    background-image: url('images/header-page.jpg');
+    width:940px;
+    height: 130px;
+    margin: auto;
+    margin-top: -20px;
+}
+h1{
+  text-align: right;
+  padding-top: 50px;
+  padding-right: 20px;
+  font-size: 3rem;
+  font-weight:900;
+}
+nav{
+  width:940px;
+  background-image: url('images/header-page.jpg');
+  background-position: top;
+  margin:auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+nav li{
+  display: inline-block;
+  padding-right: 20px;
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+nav li a{
+  color:#fff;
+}
+nav li:first-child a{
+  color:black;
+}
+nav li a:hover{
+  color:black;
+}
+main{
+  width:940px;
+  margin: auto;
+  background:#fff;
+}
+section.courses{
+  display: inline-block;
+  border-right: 1px solid #EFEFEF;
+  width:600px;
+}
+aside{
+  float:right;
+  width: 250px;
+  padding-top:25px;
+  display: inline-block;
+  margin-right: 25px;
+}
+figure{
+  display:block;
+  float: left;
+  margin-right: 20px;
+  border: 1px solid #EFEFEF;
+  padding: 5px;
+}
+article {
+ text-align: left;
+ padding-top:15px;
+ padding-bottom:90px;
+}
+div h2{
+  font-size: 2.2rem;
+  color:#666666;
+  line-height: 50px;
+}
+div h3{
+  font-size: 1.2rem;
+  color:#F0DA9C;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+ p,figcaption{
+  color:#666666;
+  font-size: 1.2rem
+}
+section.popular-recipes{
+  text-align: left;
+  color:#DE82B1;
+  margin-right: 60px;
+}
+aside h2{
+font-size: 2.2rem;
+font-weight: 900;
+}
+aside li{
+  padding-top: 20px;
+  border-bottom: 1px solid #EFEFEF;
+}
+aside li:hover{
+  background: #EFEFEF;
+}
+aside li a{
+  color:#DE82B1;
+  font-size: 1.5rem;
+}
+footer{
+  background:#AEACA8;
+  line-height: 25px;
+  color: #fff;
+}

@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 16px;
+    background: #EEE;
+}
+
+header {
+    color: #324E58;
+    max-width: 800px;
+    margin: 30px auto;
+    background: #FFF;
+    padding: 35px;
+    text-transform: uppercase;
+    border-top: #324E58 solid 7px;
+    border-right: #324E58 solid 7px;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+form {
+    padding-left: 15px;
+}
+
+span.field-description {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+span.checkbox {
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+#checkbox {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+label.checkbox {
+    float: right;
+}
+
+#name,
+#email,
+#phone,
+#pass,
+fieldset {
+    width: calc(100% - 200px);
+    height: 30px;
+    border-top: #324E58 solid 3px;
+    border-left: #324E58 solid 3px;
+}
+
+.radio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 350px;
+}
+
+#radio-left {
+    margin-right: 100px;
+}
+
+fieldset {
+    background: #fff;
+}
+
+label.check-field-set {
+    display: block;
+    margin: 10px 0 10px 10px;
+}
+
+fieldset {
+    height: 100%;
+}
+
+a {
+    color: #4E9085;
+    font-size: 15px;
+}
+
+div.buttons {
+    margin-top: 15px;
+    width: calc(100% - 200px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button {
+    text-transform: uppercase;
+    width: 226px;
+    min-width: 80px;
+    padding: 10px 80px 10px 80px;
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+    border-bottom: red solid 3px;
+    border-right: red solid 3px;
+    background-color: transparent;
+    margin-top: 25px;
+}
+
+button:nth-child(2) {
+    color: #324E58;
+    border-bottom: #324E58 solid 3px;
+    border-right: #324E58 solid 3px;
+}
+
+button:hover {
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+}
+
+.green:hover {
+    background-color: #324E58;
+}

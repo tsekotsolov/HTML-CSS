@@ -1,0 +1,136 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #EBEBEB;
+}
+
+header {
+    max-width: 1000px;
+    background: #F1F1F1;
+    color: #33A1E6;
+    line-height: 100px;
+    margin: 10px auto;
+    padding-left: 10px;
+    border-bottom: dashed 1px #D2D2D2;
+}
+
+main {
+    max-width: 1000px;
+    margin: 15px auto;
+}
+
+div.wrapper {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: dashed 1px #D2D2D2;
+}
+
+div.basic {
+    max-width: 700px;
+    margin-bottom: 15px;
+}
+
+div.basic p,
+.search input {
+    margin-top: 15px;
+}
+
+.search input,
+div.details input {
+    display: block;
+    height: 30px;
+    border: solid 2px #D2D2D2;
+    outline: none;
+    width: 170px;
+}
+
+.search span {
+    font-weight: bold;
+}
+
+.search {
+    position: relative;
+    margin-bottom: 15px;
+    height: 65px;
+}
+
+.search::after {
+    content: "\f002";
+    font-family: FontAwesome, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    bottom: 12px;
+    right: 5px;
+}
+
+.details input {
+    margin-top: 10px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.request {
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.separator {
+    display: inline-block;
+}
+
+input,
+select {
+    display: block;
+    height: 30px;
+    width: 195px;
+    border: solid 2px #D2D2D2;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 345px;
+}
+
+#startdate,
+#enddate {
+    width: 270px;
+}
+
+.unstyled::-webkit-inner-spin-button {
+    display: none;
+}
+
+.request>h3 {
+    width: 100%;
+}
+
+button {
+    color: #fff;
+    background-color: #32A2E4;
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+    float: right;
+}
+
+button:hover {
+    background-color: #3BBC96;
+    cursor: pointer;
+}

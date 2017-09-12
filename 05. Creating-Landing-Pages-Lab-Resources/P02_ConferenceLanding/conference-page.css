@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*header styling starts here*/
+
+header {
+    color: #fff;
+    background: linear-gradient(rgba(60, 63, 73, 0.8), rgba(60, 63, 73, 0.8)), url('img/header-bg.png') no-repeat center;
+    background-size: cover;
+    text-align: center
+}
+
+header div.logo-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+header nav li:hover,
+nav li a:hover {
+    color: #fa692e;
+    cursor: pointer;
+}
+
+header nav li a {
+    padding-right: 15px;
+    color: #fff;
+}
+header div.center-content p{
+    max-width: 450px;
+}
+
+header div.center-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 550px;
+    margin: 150px auto;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+header div.center-content i {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+header div.news {
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 50px;
+    border-bottom: solid transparent 8px;
+}
+
+header div.article-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header div.news {
+    height: 191px;
+}
+
+header div.news:hover {
+    border-bottom: #fa692e solid 8px;
+    cursor: pointer;
+}
+
+header div.news i {
+    padding-bottom: 37px;
+}
+
+header div.article-content a {
+    color: #fff;
+}
+
+
+/*header styling ends here*/
+
+
+/*opinions section styling starts here*/
+
+section.opinions {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 200px;
+    position: relative;
+}
+
+section.opinions div {
+    width: 260px;
+    margin: 40px auto;
+}
+
+section.opinions div.first {
+    width: 150px;
+}
+
+section.opinions div.first {
+    text-align: right;
+}
+
+section.opinions p.words {
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    margin-top: 40px;
+}
+
+section.opinions div.second {
+    text-align: left;
+}
+
+section.opinions div.second span {
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-top: solid 1px lightgrey;
+    display: block;
+    padding-top: 20px;
+    margin-top: 15px;
+}
+
+section.opinions::after {
+    content: '';
+    background: #fa692e;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -200px;
+    left: 800px;
+    opacity: 0.8;
+}
+
+
+/*opinions section styling ends here/
+
+/*section schedule starts here*/
+
+section.schedule {
+    background: #3c3f49;
+    color: #fff;
+    padding: 50px;
+}
+
+section.schedule {
+    text-align: center;
+}
+
+section.schedule h2 {
+    padding-bottom: 50px;
+    padding-left: 50px;
+    width: 350px;
+    text-align: left;
+}
+
+section.schedule i {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #fa692e;
+    padding: 14px 14px 14px 14px;
+}
+
+section.schedule span.time {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+section.schedule ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 30px 80px;
+    line-height: 120px;
+}
+
+section.schedule span.info-text {
+    text-transform: capitalize;
+}
+
+
+/*section schedule styling ends here*/
+
+
+/*section speakers styling starts here*/
+
+section.speakers {
+    width: 900px;
+    margin: 40px auto;
+}
+
+section.speakers div.pictures {
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    margin-right: 35px;
+    margin-top: 60px;
+    box-shadow: 8px 8px 5px lightgrey;
+}
+
+section.speakers img {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+section.speakers p.name {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 25px;
+    margin-left: 25px;
+}
+
+section.speakers p.job {
+    text-transform: uppercase;
+    color: #fa692e;
+    font-size: 1.2rem;
+    line-height: 50px;
+    margin-left: 25px;
+}
+
+section.speakers i:hover {
+    color: #fa692e;
+    cursor: pointer;
+}
+
+section.speakers h4 {
+    display: inline-block;
+    width: 550px;
+    vertical-align: middle;
+}
+
+section.speakers h2 {
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*section speakers styling ends here*/
+
+
+/*section special-events styling starts here*/
+
+section.special-events {
+    background: #3c3f49;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+section.special-events div {
+    width: 800px;
+    margin: auto;
+    border: 1px solid white;
+    padding: 80px;
+}
+
+section.special-events h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+section.special-events p {
+    padding: 50px 150px 50px 150px;
+}
+
+input[type=text] {
+    color: #fff;
+    background-color: #3c3f49;
+    text-transform: capitalize;
+    border-bottom: solid 2px #fa692e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin-right: 25px;
+    outline: none;
+}
+input::placeholder {
+    color: #fff;
+}
+input[type=submit] {
+    color: #fff;
+    background-color: #fa692e;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #333;
+}
+/*section special-events styling ends here*/
+
+/*footer styling starts here*/
+
+footer{
+background-color: #282A30;
+color: #fff;
+text-transform: uppercase;
+height: 80px;
+}
+
+footer p.left{
+    display: inline-block;
+    line-height: 80px;
+    padding-left: 30px;
+
+}
+footer p.right{
+    float: right;
+    width:250px;
+    height: 80px;
+    padding-top:30px;
+    }
+   
+/*footer styling ends here*/

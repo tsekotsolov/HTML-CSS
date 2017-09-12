@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Lemon;
+  src: url('fonts/Lemon-Regular.ttf');
+}
+
+body {
+  font-family: 'Lemon', 'Arial';
+  background-color: #602D75;
+}
+
+main {
+  background-color: #FFAE32;
+  width: 900px;
+  margin: 65px auto;
+  text-align: center;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 28px;
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+article {
+  display: inline-block;
+  vertical-align: top;
+  margin: 25px;
+  width: 220px;
+  background-color: #602D75;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+  border: solid 5px #846D75;
+}
+
+.price {
+  color: #fff;
+  font-size: 22px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.warranty {
+  color: #FFAE32;
+  padding-bottom: 10px;
+}
+
+.description {
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 8px;
+}
+
+button {
+  background-color: #fff;
+  border: solid 2px #846D75;
+  padding: 5px 50px;
+  font-size: 15px;
+  color: #964CFF;
+  border-radius: 20px;
+  margin: 10px;
+  font-family: 'Lemon';
+  font-style: italic;
+}

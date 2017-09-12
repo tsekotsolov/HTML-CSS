@@ -1,0 +1,84 @@
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 100%;
+        padding-left: 18px;
+    }
+    .content-wrap {
+        flex-direction: column;
+    }
+    .main-foot .wrapper {
+        flex-wrap: wrap;
+    }
+    .main-foot address,
+    .main-foot nav {
+        flex-basis: 49%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .main-nav{
+        display: none;
+    }
+    .main-nav-trigger{
+        display: inline-block;
+        float: right;
+    }
+     .main-head .logo {
+    padding: 15px 10px 10px 0;
+    width: 122px;
+    height: 84px;
+    float: left;
+    margin: 0 0 0; 
+    position: relative;
+    z-index: 3;
+    }
+
+    .hero-head {
+        background: black;
+        min-height: 520px;
+        min-height: auto;
+    }
+    .hero-head:after {
+        display: none;
+    }
+    .hero-head h1 {
+        font-size: 40px;
+        line-height: 40px;
+        float: none;
+        margin: 0 0 15px;
+        padding-bottom: 15px;
+        padding-top: 146px;
+    }
+    .hero-head .goal {
+        max-width: 100%;
+        font-size: 15px;
+        float: none;
+        padding-bottom: 25px;
+    }
+    .content-wrap h3,
+    .sponsors h3 {
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    .button {
+        padding: 10px 15px;
+        width: calc(100% - 15px);
+    }
+    .button-list li {
+        display: block;
+    }
+    .sponsorship,
+    .membership-type {
+        padding-bottom: 40px;
+    }
+    .main-foot .bottom .copyright {
+        float: none;
+    }
+
+   
+}

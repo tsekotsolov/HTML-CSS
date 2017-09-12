@@ -1,0 +1,35 @@
+    @media screen and (max-width: 960px) {
+    * {
+        box-sizing: border-box;
+    }
+    body #wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    body #wrapper>header nav ul {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body #wrapper>header nav ul li {
+        flex-basis: 100%;
+    }
+    body #wrapper>header h1 a {
+        justify-content: center;
+    }
+    body #wrapper>section, body #wrapper>aside  {
+        width: 100%;
+    }
+    body #wrapper>aside div {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body #wrapper>aside div {
+        flex-basis: 100%;
+    }
+    }

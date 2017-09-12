@@ -1,0 +1,46 @@
+@media screen and (max-width: 740px) {
+    body>* {
+        box-sizing: border-box;
+    }
+    header.clearfix {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #photo>img {
+        max-width: calc(100% - 15px);
+    }
+    #info,
+    #photo {
+        margin: 0 auto;
+        flex-basis: 100%;
+    }
+    h1,
+    h2,
+    h3,
+    small {
+        text-align: center;
+    }
+    P {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    ul li {
+        display: inline-block;
+        background: url('images/bullet.png') 0px 5px no-repeat;
+        padding-left: 15px;
+        width: 100px;
+    }
+    #skills-right ul li:nth-of-type(2) {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul li {
+        padding-left: 16px;
+        background: url(images/bullet.png) -3px 5px no-repeat;
+    }
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+html{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+body{
+  color: #fff;
+  background: #24437C;
+  text-align: center;
+}
+ul.nav-primary li{
+  display: inline-block;
+  padding: 10px;
+}
+ul.nav-primary li:hover{
+  background: #3DC1EF;
+  border-radius: 15px;
+}
+ul.nav-primary li a {
+  color: #fff;
+  font-size: 1.1rem;
+}
+ul.nav-primary{
+  float: right;
+  margin-right: 25px;
+}
+img{
+  float: left;
+  margin-left: 25px;
+  width:150px;
+}
+nav {
+  margin-top: 25px;
+}
+nav::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+ul.nav-primary li a{
+  text-transform: capitalize;
+}
+h1{
+  margin-top: 50px;
+  font-weight: 100;
+  font-size: 2.5rem;
+  line-height:100px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+h2.header-subtitle{
+  font-weight:100;
+  color: #3DC1EF;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+div#button-container a{
+  border: 1px solid #3DC1EF;
+  padding: 10px 20px 10px 20px;
+  background: #3DC1EF;
+  line-height: 100px;
+  border-radius: 15px;
+  font-weight: 10px;
+  text-transform: capitalize;
+}
+li.service{
+  display: inline-block;
+}
+article{
+  width:300px;
+  padding: 40px;
+}
+article:hover{
+  background: #3DC1EF;
+  cursor: pointer;
+}
+h2.service-title{
+  font-weight: 100;
+  letter-spacing: 5px;
+  padding-bottom: 30px;
+}
+p.service-intro{
+  text-align: left;
+}
+a.service-link{
+  color:#fff;
+  display: block;
+  padding-top: 15px;
+}

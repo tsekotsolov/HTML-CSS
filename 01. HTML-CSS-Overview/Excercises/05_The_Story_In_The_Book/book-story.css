@@ -1,0 +1,22 @@
+#wrapper{
+  background-color: #dddddd;
+  width: 400px;
+  border:1px solid #000000;
+  padding: 10px;
+  margin-left: 20px;
+}
+p{
+  font-size:18px;
+}
+h1{
+  text-align:center;
+}
+q::before{
+  content: open-quote;
+}
+q::after{
+  content: close-quote;
+}
+q{
+  quotes: "“" "”" ;
+}

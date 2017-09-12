@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  color: #A0A0A0;
+}
+
+main {
+  width: 1000px;
+  margin: 35px auto;
+}
+
+h1, h2, .price, li {
+  font-family: 'Vollkorn', serif;
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  background-color: #EBEFF2;
+  line-height: 65px;
+  text-transform: capitalize;
+}
+
+.price {
+  font-size: 60px;
+
+}
+
+article {
+  display: inline-block;
+  width: 250px;
+  height: 450px;
+  vertical-align: top;
+  margin: 30px;
+  border: solid 1px #EBEFF2;
+  vertical-align: top;
+}
+
+article:hover button, article:hover h2 {
+  background-color: #65D3E2;
+  cursor: pointer;
+}
+
+article:hover .price {
+  color: #65D3E2;
+  cursor: pointer;
+}
+
+ul li {
+  text-align: left;
+  display: block;
+  margin-top: 15px;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-left: 12px;
+  border-bottom: solid 1px #EBEFF2;
+}
+
+button {
+  padding: 15px 55px;
+  color: #fff;
+  background-color: #EBEFF2;
+  border-radius: 10px;
+  text-transform: capitalize;
+  margin-top: 50px;
+}
+
+button.middle {
+  position: relative;
+  top: 75px;
+}
+
+button.first {
+  position: relative;
+  top: 110px;
+}

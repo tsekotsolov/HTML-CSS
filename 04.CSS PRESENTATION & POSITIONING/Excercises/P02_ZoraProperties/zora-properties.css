@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700,800|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+  *{
+    padding:0 ;
+    margin:0 ;
+    border:0 ;
+    list-style-type: none;
+    text-decoration: none;
+  }
+body{
+    font-family:'Comfortaa',sans-serif;
+    background-color: #fff;
+}
+aside{
+  width:25%;
+  float:left;
+  text-align: center;
+}
+aside h2{
+  font-size:40px;
+  margin: 30px;
+}
+aside img{
+  width:150px;
+  border-radius: 50%;
+}
+aside ul{
+  margin-top: 15px;
+  margin-left: 5px;
+}
+aside ul li i{
+  font-family: 'font-awesome';
+  color: #b1bfc6;
+}
+aside ul li {
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: left;
+  line-height: 20px;
+}
+aside ul li a:hover{
+  color:#333;
+}
+aside a{
+  color: #b1bfc6;
+  letter-spacing:2px;
+}
+aside p{
+  color: #b1bfc6;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+div{
+  display: inline-block;
+  position: relative;
+}
+main{
+  width:75%;
+  background-color: #f3f5f7;
+  display: inline-block;
+}
+main header{
+  margin: 40px;
+}
+main h1{
+  font-size: 25px;
+  display: inline-block;
+}
+ h1 span {
+  color: #b1bfc6;
+
+}
+button{
+  border: solid 1px;
+  padding: 8px 15px;
+  border-radius: 15px;
+  background-color:#ff7739;
+  color:#fff;
+  text-transform: uppercase;
+  float:right;
+  display: inline-block;
+  margin-right:65px;
+}
+button:hover{
+  color: #ff7739;
+  background-color:#f3f5f7;
+}
+section{
+  padding:30px;
+}
+section h2{
+  font-size: 15px;
+  font-weight:700;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+address{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-style: normal;
+  color:#384850;
+  line-height: 35px;
+}
+
+div{
+  width:250px;
+  margin-right: 25px;
+  background-color: #fff;
+  position: relative;
+	box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+}
+div img{
+  width:250px;
+  margin-top: 25px;
+}
+
+div p{
+  text-transform:capitalize;
+  color:#b1bfc6;
+  line-height: 25px;
+  font-size: 12px;
+  padding-left: 15px;
+}
+p.listed, p.draft, p.rented{
+  background-color: #68bc69;
+  width:90px;
+  color:#fff;
+  text-align: center;
+  border-radius: 15px;
+  position:relative;
+  top:70px;
+  right:15px;
+  padding: inherit;
+}
+p.draft, p.rented{
+  background-color: #384850; ;
+}

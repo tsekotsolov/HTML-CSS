@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="edit-user-form.css">
+    <title>Edit User Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Edit User</h1>
+    </header>
+    <main>
+        <form class="primary" action="post">
+            <div class="input-fields first-div">
+                <label>
+                        <span class="field-description">User name</span>
+                        <input id="name" type="text" name="name"  required/>
+                    </label>
+
+                <label class="checkbox">
+                        <input id="checkbox" type="checkbox" name="checkbox" value="inform"/><span class="checkbox">Deactivate</span>
+                    </label>
+
+            </div>
+            <div class="input-fields">
+                <label>
+                        <span class="field-description">Email</span>
+                        <input id="email" type="email" name="name"  required/>
+                    </label>
+            </div>
+            <div class="input-fields">
+                <label>
+                        <span class="field-description">Phone number</span>
+                        <input id="phone" type="tel" name="phone"  required/>
+                    </label>
+            </div>
+            <div class="input-fields">
+
+                <span class="field-description">User type</span>
+                <div class="radio">
+                    <label id="radio-left"><input type="radio" name="radiobutton" value="broadband"> Broadband</label>
+                    <label id="radio-right"><input type="radio" name="radiobutton" value="radio"> Radio</label>
+                </div>
+
+            </div>
+            <div class="input-fields">
+                <label>
+                        <span class="field-description">Change password</span>
+                        <input id="pass" type="password" name="pass" />
+                    </label>
+            </div>
+            <span class="field-description">Group</span>
+            <fieldset class="group">
+
+                <label class="check-field-set">
+                        <input type="checkbox"/><span class="checkbox">All Groups</span>
+                    </label>
+
+                <label class="check-field-set">
+                        <input type="checkbox"/><span class="checkbox">Group1</span>
+                    </label>
+
+                <label class="check-field-set">
+                        <input type="checkbox"/><span class="checkbox">Group2</span>
+                    </label>
+
+                <label class="check-field-set">
+                        <input type="checkbox"/><span class="checkbox">Group3</span>
+                    </label>
+
+                <label class="check-field-set">
+                        <input type="checkbox"/><span class="checkbox">Group4</span>
+                    </label>
+
+            </fieldset>
+            <span class="field-description">Contacts</span>
+            <a href="#">See contacts list</a>
+
+            <div class="buttons">
+                <button class="red">cancel</button>
+                <button class="green">save</button>
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>
